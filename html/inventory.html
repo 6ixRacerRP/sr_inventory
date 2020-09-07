@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="inventory.css" type="text/css">
+
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <script src="app.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="container" class="hidden">
+            <div id="vicinity">
+                <h4>VICINITY</h4>
+                <div class="objects empty"></div>
+            </div>
+            <div id="hands">
+                <img src="img/ui/character.png"/>
+                <h4>HANDS</h4>
+                <div class="objects empty"></div>
+            </div>
+            <div id="inventory">
+                <h4>INVENTORY</h4>
+                <div class="clothing">
+                    <img src="img/ui/pants_ico.png"/>
+                    <h5 class="title">PANTS</h5>
+                    <h5 class="weight">/ 1.00</h5>
+                </div>
+                <div class="objects empty"></div>
+                <div class="clothing">
+                    <img src="img/ui/backpack_ico.png"/>
+                    <h5 class="title">BACKPACK</h5>
+                    <h5 class="weight">/ 35.00</h5>
+                </div>
+                <div class="objects">
+                    <div class="item" draggable="true">
+                        <img src="img/items/ak-47.png"/>
+                        <h5 class="title">AK-47</h5>
+                        <h5 class="weight">30.00</h5>
+                    </div>
+                    <div class="item" draggable="true">
+                        <img src="img/items/ak-47.png"/>
+                        <h5 class="title">AK-47</h5>
+                        <h5 class="weight">30.00</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

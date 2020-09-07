@@ -1,0 +1,73 @@
+#container {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 15%;
+}
+
+/* General attributes */
+#vicinity, #hands, #inventory {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    width: 33%;
+    text-align: center;
+    color: white;
+}
+
+h4 {
+    background: rgba(10, 10, 10, 0.9);
+    margin: 0px 70px;
+    padding: 10px 0px;
+    
+}
+
+.empty {
+    background: rgba(10, 10, 10, 0.7);
+    margin: 0px 70px;
+    border: solid;
+    border-width: 1px;
+    height: 40px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Hands */
+img[src="img/character.png"] {
+    opacity: 0.8;
+}
+
+/* Inventory */
+.clothing, .item {
+    background: rgba(10, 10, 10, 0.8);
+    margin: 0px 70px;
+    padding: 0px;
+    border: solid;
+    border-width: 1px;
+    height: 40px;
+}
+
+.item {
+    background: rgba(10, 10, 10, 0.7);
+    cursor: grabbing;
+}
+
+#inventory img {
+    float: left;
+    height: 20px;
+    padding: 10px;
+}
+
+.title, .weight {
+    margin: 12px 0px;
+}
+
+.weight {
+    float: right;
+    margin-right: 8px;
+}
+
+.title {
+    float: left;
+}
